@@ -84,15 +84,21 @@
   
   .two-columns__brief {
     width: 175px;
-  }
-  
-  .two-columns__brief h2 {
     line-height: 1.2em;
     font-size: 18px;
     font-weight: 400;
     color: #2f80ed;
+       
   }
   
+  /* .two-columns__brief h2 {
+    line-height: 1.2em;
+    font-size: 18px;
+    font-weight: 400;
+    color: #2f80ed;
+    
+  }
+   */
   .two-columns__main-text {
     width: 80%;
     min-width: 784px;
