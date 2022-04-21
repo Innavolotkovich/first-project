@@ -1,3 +1,12 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -13,6 +22,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo_place_header {
@@ -57,6 +67,12 @@
   color: #2f80ed;
 }
 
+.header__link:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -74,6 +90,7 @@
   top: 64px;
   right: 0px;
   z-index: 0;
+  animation: rotation 20s ease-in infinite;
 }
 
 .description {
@@ -218,6 +235,12 @@
   text-decoration: none;
 }
 
+.feynman__link:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
@@ -292,6 +315,7 @@
   top: 0;
   z-index: 0;
   background-size: cover;
+  animation: rotation 20s ease-in infinite;
 }
 
 .footer {
@@ -384,6 +408,12 @@
   padding: 0;
 }
 
+.footer__column-link:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
 .footer__social-icon {
   background-size: contain;
   position: relative;
@@ -392,4 +422,193 @@
   width: 16px;
   height: 16px;
   padding-right: 10px;
+}
+
+.footer__social-icons:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
+.techniques {
+  padding: 100px 0 0 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cards {
+  margin-left: auto;
+  margin-right: auto;
+  width: 920px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 60px;
+  grid-column-gap: 100px;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.cards__image {
+  margin: 60px 40px 43px 40px;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}
+.cards__title {
+  padding: 0;
+  margin: 0 0 16px 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cards__description {
+  line-height: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.video {
+  padding-top: 100px;
+  padding-bottom: 0;
+  overflow-x: visible;
+}
+.video__iframes {
+  margin-top: 50px;
+  display: flex;
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: visible;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;
+}
+
+.video__iframe:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
+.oakley {
+  display: flex;
+  justify-content: center;
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}
+.khan {
+  padding-top: 105px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 50px 0 36px 0;
+  width: 790px;
+  box-sizing: border-box;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.khan__book-container {
+  margin: 68px 0 0 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.khan__book-pic {
+  height: 620px;
+  width: 620px;
+  margin: 0 48px 0 0;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.khan__buy-link:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
+}
+
+.resources {
+  margin: 100px 0 217px 0;
+}
+
+.resources__logo-zone {
+  padding: 80px 0 0 0;
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  height: 38px;
+  list-style-type: none;
+}
+
+.resources__link {
+  height: 38px;
+  width: 270px;
+}
+
+.resources__link:hover {
+  color: rgb(247, 100, 100);
+  opacity: 0.5;
+  transition: 0.5s linear;
 }
