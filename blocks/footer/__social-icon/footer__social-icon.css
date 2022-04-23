@@ -1,0 +1,16 @@
+.footer__social-icon {
+    background-size: contain;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    padding-right: 10px;
+  }
+  
+  .footer__social-icons:hover {
+    color: rgb(247, 100, 100);
+    opacity: 0.5;
+    transition: 0.5s linear;
+  }
+  
