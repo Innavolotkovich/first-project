@@ -1,4 +1,4 @@
-.two-colums__paragraph {
+.two-columns__paragraph {
     line-height: 34px;
     font-size: 24px;
     font-weight: 400;
@@ -7,7 +7,7 @@
     margin-bottom: 30px;
   }
   
-  .two-colums__paragraph:last-child {
+  .two-columns__paragraph:last-child {
     margin-bottom: 0;
   }
   

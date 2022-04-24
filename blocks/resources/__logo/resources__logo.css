@@ -1,9 +1,9 @@
-.resources__link {
+.resources__logo {
   height: 38px;
   width: 270px;
 }
 
-.resources__link:hover {
+.resources__logo:hover {
   color: rgb(247, 100, 100);
   opacity: 0.5;
   transition: 0.5s linear;
